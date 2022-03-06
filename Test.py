@@ -12,7 +12,7 @@ class TestSum(unittest.TestCase):
         data = [2, 3]
         result = summation(data)
         print("till here")
-        self.assertEqual(result, 13)
+        self.assertEqual(result, 5)
 
 if __name__ == '__main__':
     unittest.main()
